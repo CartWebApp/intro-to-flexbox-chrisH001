@@ -27,40 +27,99 @@
 /* We start writing our flexbox here. The above is just page setup */
 .flex-container {
   border:10px solid goldenrod;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  height: 100vh;
+  
 }
 
 [class^="box"] {
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.box1 {
-    
+.full{
+  width: 100%;
+  height: 24%;
+} 
+.second{
+  width: 48.5%;
+  height: 24%;
+} 
+.fourth{
+  width: 23.75%;
+  height: 24%;
+}
+.third{
+  width: 32%;
+  height: 24%;
+ 
+
+} 
+/* .box1 {
+  
+  flex-grow: 5;
+  width: 97vh;
+  height: 31%;
+  justify-content: center; 
+  margin-top:1vh;
 }
 
 .box2 {
-
+  flex-grow: 5;
+  width: 40vw;
+  height: 26vw;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh;
 }
 .box3 {
-
+  flex-grow: 5;
+  width: 40vw;
+  height: 26vw;
+  margin-top:0.5vh;
 }
 .box4 {
-
+  width: 20vw;
+  height: 24%;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh;
 }
 .box5 {
-
+  width: 20vw;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh;
 }
 .box6 {
-
+  width: 20vw;
+  height: 24%;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh;
 }
 .box7 {
-
+  width: 20vw;
+  height: 24%;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh;
 }
 .box8 {
-
+  width: 30vw;
+  height: 24%;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh;
 }
 .box9 {
-
+  width: 30vw;
+  height: 24%;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh;
 }
 .box10 {
-
-}
+  width: 30vw;
+  height: 24%;
+  margin-top:0.5vh;
+  margin-inline-end:0.5vh; 
+}*/
